@@ -252,5 +252,58 @@ nav{
 	margin-top: 0px; 
 }
 .s-heading{
-	margin: 0px 0px 30px 0px;
+	margin: 30px 0px 30px 0px;
 }
+
+
+.s-box{
+	width: 220px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 2px 12px rgba(0,0,0,0.1);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 10px 5px;
+	border-radius: 10px;
+}
+
+.s-box-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.s-icon{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #313131;
+	margin: 10px;
+}
+
+.s-box a{
+	font-family: myriad pro;
+	font-weight: bold;
+	color: #313131;
+	font-size: 18px;
+	margin: 10px 0px;
+}
+
+.s-box p{
+	font-family: myriad pro;
+	color: #313131;
+	font-size: 14px;
+}
+
+.s-button{
+	width: 140px;
+	height: 35px;
+	border:none;
+	outline: none;
+	border-radius: 20px;
+	color: #4530c3;
+	border:1px solid #4530c3;
+}
+
