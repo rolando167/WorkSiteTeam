@@ -132,7 +132,7 @@ nav{
 }
 
 .box-img03{
-	background-image: url("../images/folder/3.jpg");
+	background-image: url("../images/folder/12.jpg");
 }
 
 .box-img04{
@@ -140,7 +140,7 @@ nav{
 }
 
 .box-img05{
-	background-image: url("../images/folder/5.jpg");
+	background-image: url("../images/folder/17.jpg");
 }
 
 .box-img06{
@@ -165,6 +165,10 @@ nav{
 
 .box-img11{
 	background-image: url("../images/folder/18.jpg");
+}
+
+.box-img12{
+	background-image: url("../images/folder/3.jpg");
 }
 
 /*user img ************ */
@@ -223,4 +227,30 @@ nav{
 	color: #3d3d3e;
 	margin: 0px 10px;
 	line-height: 25px;
+}
+
+.s-heading{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.s-heading p:nth-child(1){
+	font-family: Magmawave Caps;
+	font-weight: bold;
+	font-size: 25px;
+	color: #3d3d3e;
+	width: 40%;
+	text-align: center;
+	margin: 10px
+}
+
+.s-heading p:nth-child(2){
+	font-family: myriad pro;
+	font-size: 14px;
+	color: #9f9e9e;
+	margin-top: 0px; 
+}
+.s-heading{
+	margin: 0px 0px 30px 0px;
 }
