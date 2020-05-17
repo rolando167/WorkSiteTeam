@@ -281,6 +281,9 @@ nav{
 	border-radius: 50%;
 	background-color: #313131;
 	margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .s-box a{
@@ -307,3 +310,24 @@ nav{
 	border:1px solid #4530c3;
 }
 
+.front-icon{
+	background-image: url("../images/front.jpg");
+}
+.back-icon{
+	background-image: url("../images/back.jpg");
+}
+.seo-icon{
+	background-image: url("../images/seo.jpg");
+}
+.gui-icon{
+	background-image: url("../images/gui.jpg");
+}
+.s-button:hover{
+	color: #FFffff;
+	background-color: #4530c3;
+	transition:  all ease 0.5s;
+}
+
+button:active{
+	transform: scale(1.1);
+}
